@@ -1,0 +1,105 @@
+.resume-content {
+    font-family: "Source Sans Pro", "Open Sans", "Century Gothic", CenturyGothic, "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", 宋体, SimSun, 华文细黑, STXihei, 黑体, SimHei, sans-serif;
+    padding: 5em 10%;
+}
+
+.resume-body .user-title {
+    border-bottom: 3px solid #6aa84f;
+    border-top: 1px solid #6aa84f;
+}
+
+.resume-body .portfolio .css-crop {
+    border: 1px solid #6aa84f;
+}
+
+.resume-body section > header {
+    border-bottom: 1px solid #6aa84f;
+    height: 1.5em;
+    margin-bottom: 1.5em;
+    text-align: center;
+}
+
+.resume-body section > header .header-text {
+    background: white;
+    display: inline-block;
+    margin: 0px;
+    padding: 0.25em 0.75em;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.resume-body h1, .resume-body h2, .resume-body h3 {
+    line-height: 1.1;
+    text-align: center;
+    color: #6aa84f;
+}
+
+.resume-body h4, .resume-body h5 {
+    font-size: 120%;
+    margin: 0.25em 0em;
+}
+
+.resume-body h5 {
+    font-style: italic;
+}
+
+.resume-body h6 {
+    color: #777777;
+    font-size: 110%;
+}
+
+/*Contact Info Section*/
+
+.resume-body .contact-info {
+    list-style: none;
+    margin: 0px;
+    padding-left: 0px;
+    padding-top: 0.25em;
+    text-align: center;
+}
+
+.resume-body .contact-info li {
+    display: inline-block;
+}
+
+.resume-body .contact-info li:not(:first-child):before {
+    color: #cccccc;
+    content: "\2022";
+    font-size: 150%;
+    line-height: 0.5em;
+    margin: 0px 0.25em;
+    vertical-align: middle;
+}
+
+/*Skill Section*/
+
+.resume-body .skill-name h4 {
+    font-weight: bold;
+}
+
+.resume-body .skill .skill-bar {
+    -moz-border-radius: 2px;
+    -moz-transform: skewX(-45deg);
+    -ms-border-radius: 2px;
+    -ms-transform: skewX(-45deg);
+    -o-border-radius: 2px;
+    -o-transform: skewX(-45deg);
+    -webkit-border-radius: 2px;
+    -webkit-transform: skewX(-45deg);
+    background-color: #eeeeee;
+    border-radius: 2px;
+    height: 8px;
+    margin: 0.5em 0px 0.75em;
+    transform: skewX(-45deg);
+    width: 100%;
+}
+
+.resume-body .skill .skill-level {
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    background-color: #6aa84f;
+    border-radius: 2px;
+    height: 8px;
+}
