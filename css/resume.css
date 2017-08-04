@@ -1,6 +1,8 @@
 .resume-content {
     font-family: "Source Sans Pro", "Open Sans", "Century Gothic", CenturyGothic, "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", 宋体, SimSun, 华文细黑, STXihei, 黑体, SimHei, sans-serif;
-    padding: 5em 10%;
+    margin: 2em auto;
+    width: 90%;
+    max-width: 800px;
 }
 
 .resume-body .user-title {
