@@ -1,0 +1,14 @@
+{
+    "items": [
+        { "name": "HTML" },
+        { "name": "CSS" },
+        { "name": "Javascript" },
+        { "name": "React" },
+        { "name": "Redux" },
+        { "name": "C#" },
+        { "name": "Java" },
+        { "name": "Swift" },
+        { "name": "Kotlin" },
+        { "name": "Git" }
+    ]
+}

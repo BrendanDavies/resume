@@ -1,0 +1,79 @@
+{
+  "items": [{
+      "company": "Comcast",
+      "positions": [{
+          "dates": "Jun 2019 - Present",
+          "title": "Principal Software Engineer"
+        },
+        {
+          "dates": "Nov 2017 - Jun 2019",
+          "title": "Senior Software Engineer"
+        }
+      ],
+      "details": ["Doing nice and wonderful things."]
+    },
+    {
+      "company": "Think Company",
+      "positions": [{
+        "dates": "Apr 2016 - Nov 2017",
+        "title": "Senior UI Developer"
+      }],
+      "details": [
+        "Lead the development team responsible for providing shareable code and infrastructure to support various client applications (Web/Mobile/X1)",
+        "Create API Layer to interface between UI and HyperMedia-based RESTful back-end api",
+        "Guide and assist junior developers to align with best practices and company standards",
+        "Collaborate with product stakeholders to refine feature requests",
+        "Architect technical plans for product features",
+        "Research new technologies and solutions to solve current technical difficulties"
+      ]
+    },
+    {
+      "company": "Cozen O'Connor",
+      "positions": [{
+          "dates": "Jul 2015 - Apr 2016",
+          "title": "Manager, Solutions Development"
+        },
+        {
+          "dates": "Jan 2012 - Jun 2015",
+          "title": "Web Developer"
+        }
+      ],
+      "details": [
+        "Designed and developed responsive web applications utilizing C#, Entity Framework, ASP.Net, MVC, HTML5, CSS3, and Javascript (JQuery/AngularJS/Modernizr/Babel)",
+        "Modernized 50+ existing internal web applications to meet current web standards",
+        "Interfaced with project stakeholders to determine requirements and define deadlines",
+        "Planned and implemented Data Integration between 3rd party, in-house, and external vendor applications via RESTful Web APIs",
+        "Architected relation database schema for all custom applications",
+        "Architected Data Warehouse (using the Kimball Method) and developed ETL process for loading data (SSIS).",
+        "Created Analytic Layer on top of the Data Warehouse to enable self-service reporting"
+      ]
+    },
+    {
+      "company": "ExelleRx",
+      "positions": [{
+          "dates": "Jun 2010 - Dec 2012",
+          "title": "Database Administrator I"
+        },
+        {
+          "dates": "Jun 2009 - Jun 2010",
+          "title": "Associate Database Administrator"
+        }
+      ],
+      "details": [
+        "Provided support for over 50 SQL Servers(2000-2008 R2) in both OLTP and OLAP environments (including Disaster Recovery\\Upgrades)",
+        "Developed an automated server inventory procedure to provide a detailed history of system status and configuration",
+        "Optimized all SQL Server code prior to release by utilizing&nbsp;execution plans and I/O statistics",
+        "Developed and maintained a custom data archiving\restoration process for the primary operational database",
+        "Created a reporting interface to provide end user accessibility to archived data"
+      ]
+    },
+    {
+      "company": "Penn State University",
+      "positions": [{
+        "dates": "Jun 2008 - Dec 2008",
+        "title": "Web Application Developer"
+      }],
+      "details": ["Developed inventory search application with integration to Facebook (PHP, HTML, JavaScript, XSLT, SQL) /n Provided comprehensive and detailed documentation concerning the setup and maintenance of the Web Application."]
+    }
+  ]
+}
