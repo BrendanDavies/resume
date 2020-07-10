@@ -1,0 +1,10 @@
+.bg-blur {
+  background: rgba(128, 90, 213, 0.7);
+}
+
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+  .bg-blur {
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+  }
+}

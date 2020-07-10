@@ -2,66 +2,58 @@
 layout: layouts/base.liquid
 name: "Brendan Davies"
 title: "Brendan Davies’s Résumé"
+location: Philadelphia, PA
 subtitle: "Software Engineer"
-description: "Brendan Davies is [DOING IMPRESSIVE AND WONDERFUL THINGS]."
-summary: / Pet Dad / Woodworker
+summary: Experienced Software Developer who has worked across multiple platforms and has enjoyed most of them
 ---
 
-<header>
-  <h1 class="text-center">{{ name }}</h1>
-  <h2>{{ subtitle }}</h2>
+<header class="mx-6 text-center border-b-2 border-purple-600 border-solid">
+  <h1 class="text-4xl">{{ name }}</h1>
+  <h2 class="text-2xl">{{ subtitle }}</h2>
+  <h3>{{ location }}</h3>
+  <ul class="my-1">
+    {% for item in contact.items %}
+    <li><a href="{{ item.link }}">{{ item.name }}</a></li>
+    {% endfor %}
+  </ul>
 </header>
 
 <main>
-  <section class="contact">
-    <header class="small">
-      <h1>Contact</h1>
-    </header>
-    <address>Philadelphia</address>
-
-    <ul>
-      {% for item in contact.items %}
-      <li><a href="{{ item.link }}">{{ item.name }}</a></li>
-      {% endfor %}
-    </ul>
-  </section>
-
-  <section class="summary">
-    <header class="small">
-      <h1>Summary</h1>
-    </header>
+  <section class="m-4 text-center">
     <p>{{ summary }}</p>
   </section>
 
-  <section class="experience">
-    <header>
-      <h1>Experience</h1>
+  <section class="block my-6 md:flex">
+    <header class="sticky top-0 w-full p-6 border-r-2 border-purple-600 border-solid md:w-1/6">
+      <h1 class="italic font-extrabold text-center md:text-right">Experience</h1>
     </header>
 
-    <dl>
+    <dl class="flex-1 px-4">
       {% for item in experience.items %}
-      <dt>
-        <h2>{{ item.company }}
-          {% for position in item.positions %}
-          <h3>{{ position.title }}
-            <small>{{ position.dates }}</small>
-          </h3>
-          {% endfor %}
-      </dt>
-      <ul>
-        {% for point in item.details %}
-          <li>{{ point }}</li>
+        <dt class="mt-6">
+          <h2 class="text-2xl font-thin">{{ item.company }}</h2>
+        </dt>
+        <dt>{% for position in item.positions %}
+          <div class="flex justify-between mx-2">
+            <h3 class="font-bold">
+              {{ position.title }}
+            </h3>
+            <span class="text-sm italic font-thin">{{ position.dates }}</span>
+          </div>
         {% endfor %}
-      </ul>
+        </dt>
+        {% for point in item.details %}
+          <dd class="my-2 ml-4 text-gray-800 list-disc">{{ point }}</dd>
+        {% endfor %}
       {% endfor %}
     </dl>
   </section>
 
-  <section class="education">
-    <header>
-      <h1>Education</h1>
+  <section class="block my-6 md:flex">
+    <header class="sticky top-0 w-full p-6 border-r-2 border-purple-600 border-solid md:w-1/6">
+      <h1 class="italic font-extrabold text-center md:text-right">Education</h1>
     </header>
-    <dl>
+    <dl class="p-4">
       {% for item in education.items %}
       <dt>{{ item.name }}</dt>
       <dd>{{ item.description }}</dd>
@@ -69,11 +61,11 @@ summary: / Pet Dad / Woodworker
     </dl>
   </section>
 
-  <section class="skills">
-    <header>
-      <h1>Skills</h1>
+  <section class="block my-6 md:flex">
+    <header class="sticky top-0 w-full p-6 border-r-2 border-purple-600 border-solid md:w-1/6">
+      <h1 class="italic font-extrabold text-center md:text-right">Skills</h1>
     </header>
-    <ul>
+    <ul class="px-4">
       {% for item in skills.items %}
       <li>{{ item.name }}</li>
       {% endfor %}
