@@ -1,5 +1,9 @@
 {
   "scripts": {
-    "serve": "python -m SimpleHTTPServer"
+    "build": "eleventy",
+    "start": "eleventy --serve"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.0"
   }
 }
