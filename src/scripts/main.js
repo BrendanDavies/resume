@@ -1,1 +1,1 @@
-alert('HELLOOOOOO')
+import '../styles/main.css';
