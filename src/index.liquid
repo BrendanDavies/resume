@@ -7,24 +7,27 @@ subtitle: "Software Engineer"
 summary: Experienced Software Developer who has worked across multiple platforms and has enjoyed most of them
 ---
 
-<header class="mx-6 text-center border-b-2 border-purple-600 border-solid">
+<header class="sticky top-0 text-center border-b-2 border-purple-600 border-solid md:mx-6 bg-blur">
   <h1 class="text-4xl">{{ name }}</h1>
   <h2 class="text-2xl">{{ subtitle }}</h2>
-  <h3>{{ location }}</h3>
-  <ul class="my-1">
-    {% for item in contact.items %}
-    <li><a href="{{ item.link }}">{{ item.name }}</a></li>
-    {% endfor %}
-  </ul>
 </header>
 
 <main>
   <section class="m-4 text-center">
+    <h3>{{ location }}</h3>
+    <ul class="my-1">
+      {% for item in contact.items %}
+      <li><a href="{{ item.link }}">{{ item.name }}</a></li>
+      {% endfor %}
+    </ul>
+  </section>
+
+  <section class="m-4 text-center">
     <p>{{ summary }}</p>
   </section>
 
-  <section class="block my-6 md:flex">
-    <header class="sticky top-0 w-full p-6 border-r-2 border-purple-600 border-solid md:w-1/6">
+  <section class="block my-2 md:my-6 md:flex">
+    <header class="w-full border-r-2 border-purple-600 border-solid p2 md:p-6 md:w-1/6">
       <h1 class="italic font-extrabold text-center md:text-right">Experience</h1>
     </header>
 
@@ -49,8 +52,8 @@ summary: Experienced Software Developer who has worked across multiple platforms
     </dl>
   </section>
 
-  <section class="block my-6 md:flex">
-    <header class="sticky top-0 w-full p-6 border-r-2 border-purple-600 border-solid md:w-1/6">
+  <section class="block my-2 md:my-6 md:flex">
+    <header class="w-full p-2 border-r-2 border-purple-600 border-solid md:p-6 md:w-1/6">
       <h1 class="italic font-extrabold text-center md:text-right">Education</h1>
     </header>
     <dl class="p-4">
@@ -61,8 +64,8 @@ summary: Experienced Software Developer who has worked across multiple platforms
     </dl>
   </section>
 
-  <section class="block my-6 md:flex">
-    <header class="sticky top-0 w-full p-6 border-r-2 border-purple-600 border-solid md:w-1/6">
+  <section class="block my-2 md:my-6 md:flex">
+    <header class="w-full p-2 border-r-2 border-purple-600 border-solid md:p-6 md:w-1/6">
       <h1 class="italic font-extrabold text-center md:text-right">Skills</h1>
     </header>
     <ul class="px-4">
