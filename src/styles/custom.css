@@ -8,3 +8,16 @@
     backdrop-filter: blur(10px);
   }
 }
+
+.strike {
+  display: flex;
+  flex-direction: row;
+}
+
+.strike:before,
+.strike:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 2px solid rgba(128, 90, 213);
+    margin: auto 5px;
+}
