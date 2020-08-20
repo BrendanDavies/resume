@@ -68,9 +68,14 @@ summary: Experienced Software Developer who has worked across multiple platforms
     <header class="w-full p-2 border-r-2 border-purple-600 border-solid md:p-6 md:w-1/6">
       <h1 class="italic font-extrabold text-center strike md:block md:text-right">Skills</h1>
     </header>
-    <ul class="px-4">
+    <ul class="flex flex-1 px-4">
       {% for item in skills.items %}
-      <li>{{ item.name }}</li>
+      <li class="px-1">
+        {{ item.name }}
+        {% if forloop.last != true %}
+        ,
+        {% endif %}
+      </li>
       {% endfor %}
     </ul>
   </section>
