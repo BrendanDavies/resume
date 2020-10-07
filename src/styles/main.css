@@ -1,4 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import "./custom.css";
+
+.strike {
+  display: flex;
+  flex-direction: row;
+}
+
+.strike:before,
+.strike:after {
+    @apply border-b-2 border-solid border-primary;
+    content: "";
+    flex: 1 1;
+    margin: auto 5px;
+}
