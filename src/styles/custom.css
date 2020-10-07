@@ -1,14 +1,3 @@
-.bg-blur {
-  background: rgba(128, 90, 213, 1);
-}
-
-@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
-  .bg-blur {
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
-  }
-}
-
 .strike {
   display: flex;
   flex-direction: row;
@@ -16,8 +5,9 @@
 
 .strike:before,
 .strike:after {
+    @apply border-primary;
     content: "";
     flex: 1 1;
-    border-bottom: 2px solid rgba(128, 90, 213);
+    border-bottom: 2px solid;
     margin: auto 5px;
 }
