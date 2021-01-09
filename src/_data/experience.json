@@ -12,12 +12,12 @@
       ],
       "details": [
         "Lead Web Developer on customer product suite",
-        "Organize Web Guild/Workshops/Developer summits for a group of 40+ developers across 6 different product teams",
-        "Re-architect and the lead the in-place migration of the application with ~5 Million monthly active users",
+        "Organize web guild/workshops/developer summits for a group of 40+ developers across 6 different product teams",
+        "Re-architect and the lead the in-place migration of the application with ~5 million monthly active users",
         "Organized monolith API decomposition to discrete micro-services",
-        "Member of API semantic and Data Model standardization guilds",
-        "Manage/Maintain cloud native architecture for web applications",
-        "Mentor junior and mid-level developers across multiple disciplines"
+        "Member of API semantic and data model standardization guilds",
+        "Manage/maintain cloud native architecture for web applications",
+        "Mentor developers across multiple disciplines"
       ]
     },
     {
@@ -28,7 +28,7 @@
       }],
       "details": [
         "Lead the development team responsible for providing shareable code and infrastructure to support various client applications (Web/Mobile/X1)",
-        "Create API Layer to interface between UI and HyperMedia-based RESTful back-end api",
+        "Create API layer to interface between UI and HyperMedia-based RESTful back-end api",
         "Guide and assist junior developers to align with best practices and company standards",
         "Collaborate with product stakeholders to refine feature requests",
         "Architect technical plans for product features",
@@ -68,11 +68,11 @@
         }
       ],
       "details": [
-        "Provided support for over 50 SQL Servers(2000-2008 R2) in both OLTP and OLAP environments (including Disaster Recovery\\Upgrades)",
+        "Provided support for over 50 SQL Servers(2000-2008 R2) in both OLTP and OLAP environments (including Disaster Recovery/Upgrades)",
         "Developed an automated server inventory procedure to provide a detailed history of system status and configuration",
-        "Optimized all SQL Server code prior to release by utilizing&nbsp;execution plans and I/O statistics",
-        "Developed and maintained a custom data archiving\restoration process for the primary operational database",
-        "Created a reporting interface to provide end user accessibility to archived data"
+        "Optimized all SQL Server code prior to release by utilizing execution plans and I/O statistics",
+        "Developed and maintained a custom data archiving/restoration process for the primary operational database",
+        "Design and develop user interface for accessing archived data"
       ]
     },
     {
