@@ -11,13 +11,13 @@
         }
       ],
       "details": [
-        "Lead Web Developer on customer product suite",
+        "Lead web developer on customer product suite with ~5 million monthly active users",
+        "Re-architect and the lead the in-place migration of application to React/Redux",
         "Organize web guild/workshops/developer summits for a group of 40+ developers across 6 different product teams",
-        "Re-architect and the lead the in-place migration of the application with ~5 million monthly active users",
-        "Organized monolith API decomposition to discrete micro-services",
+        "Data model and coordinate the decomposition of our monolith API service into discrete micro-services",
+        "Manage cloud native architecture for web applications",
         "Member of API semantic and data model standardization guilds",
-        "Manage/maintain cloud native architecture for web applications",
-        "Mentor developers across multiple disciplines"
+        "Mentor junior/mid-level developers across multiple disciplines"
       ]
     },
     {
@@ -27,12 +27,12 @@
         "title": "Senior UI Developer"
       }],
       "details": [
-        "Lead the development team responsible for providing shareable code and infrastructure to support various client applications (Web/Mobile/X1)",
+        "Lead the development team responsible for providing shareable code and infrastructure to support various client applications (Web/Mobile/TV)",
         "Create API layer to interface between UI and HyperMedia-based RESTful back-end api",
         "Guide and assist junior developers to align with best practices and company standards",
         "Collaborate with product stakeholders to refine feature requests",
         "Architect technical plans for product features",
-        "Research new technologies and solutions to solve current technical difficulties"
+        "Research new technologies and solutions"
       ]
     },
     {
