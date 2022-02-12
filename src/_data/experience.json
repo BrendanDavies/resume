@@ -1,8 +1,18 @@
 {
   "items": [{
+      "company": "Hopin",
+      "positions": [{
+        "dates": "May 2021 - Present",
+        "title": "Senior Staff Software Engineer"
+      }],
+      "details": [
+        ""
+      ]
+    },
+    {
       "company": "Comcast",
       "positions": [{
-          "dates": "Jun 2019 - Present",
+          "dates": "Jun 2019 - May 2021",
           "title": "Principal Software Engineer"
         },
         {
