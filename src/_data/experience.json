@@ -3,10 +3,14 @@
       "company": "Hopin",
       "positions": [{
         "dates": "May 2021 - Present",
-        "title": "Senior Staff Software Engineer"
+        "title": "Senior Staff Engineer"
       }],
       "details": [
-        ""
+        "Advise on technical direction of multiple product focused teams, with a focus on standardization, scalability, and reliability",
+        "Lead the decomposition of monolith applications into independently deployable micro front ends",
+        "Design and coordinate technical integration of company acquisitions",
+        "Maintain inner sourced micro-frontend library",
+        "Mentor engineers and lead internal onboarding trainings"
       ]
     },
     {
