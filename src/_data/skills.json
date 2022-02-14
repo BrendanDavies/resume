@@ -1,14 +1,18 @@
 {
     "items": [
+        { "name": "Javascript", "level": 5 },
+        { "name": "TypeScript", "level": 5 },
         { "name": "HTML", "level": 5 },
         { "name": "CSS", "level": 5 },
-        { "name": "Javascript", "level": 5 },
         { "name": "React", "level": 5 },
         { "name": "Redux", "level": 5 },
-        { "name": "RxJS", "level": 5 },
-        { "name": "C#", "level": 4 },
-        { "name": "Java", "level": 4 },
+        { "name": "Vue.js", "level": 4 },
+        { "name": "Svelte", "level": 4 },
+        { "name": "Next.js", "level": 4 },
+        { "name": "Rust", "level": 3 },
         { "name": "Swift", "level": 3 },
-        { "name": "Kotlin", "level": 3  }
+        { "name": "Kotlin", "level": 3 },
+        { "name": "C#", "level": 3 },
+        { "name": "Java", "level": 3 }
     ]
 }
