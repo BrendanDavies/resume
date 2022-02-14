@@ -6,11 +6,12 @@
         "title": "Senior Staff Engineer"
       }],
       "details": [
-        "Advise on technical direction of multiple product focused teams, with a focus on standardization, scalability, and reliability",
+        "Advise on the technical direction of 6 product teams, with a focus on performance, scalability, and reliability",
         "Lead the decomposition of monolith applications into independently deployable micro front ends",
+        "Optimize network infrastructure used to deliver web applications across the company",
         "Design and coordinate technical integration of company acquisitions",
         "Maintain inner sourced micro-frontend library",
-        "Mentor engineers and lead internal onboarding trainings"
+        "Mentor engineers and lead internal training"
       ]
     },
     {
@@ -29,7 +30,7 @@
         "Architect and lead the in-place migration of flagship web application to React/Redux",
         "Organize web guild/workshops/developer summits for a group of 40+ developers across 6 different product teams",
         "Data model and coordinate the decomposition of our monolith API service into discrete micro-services",
-        "Manage cloud native architecture for web applications",
+        "Manage cloud-native architecture for web applications",
         "Member of API semantic and data model standardization guilds",
         "Mentor junior/mid-level developers across multiple disciplines"
       ]
@@ -42,7 +43,7 @@
       }],
       "details": [
         "Lead the development team responsible for providing shareable code and infrastructure to support various client applications (Web/Mobile/TV)",
-        "Create API layer to interface between UI and HyperMedia-based RESTful back-end APIs",
+        "Create API layer to interface between UI and HyperMedia-based RESTful backend APIs",
         "Guide and assist junior developers to align with best practices and company standards",
         "Collaborate with product stakeholders to refine feature requests",
         "Architect technical plans for product features",
@@ -64,9 +65,9 @@
         "Design and develop responsive web applications utilizing C#, Entity Framework, ASP.Net, MVC, HTML5, CSS3, and Javascript (JQuery/AngularJS/Modernizr/Babel)",
         "Modernize 50+ existing internal web applications to meet current web standards",
         "Interface with project stakeholders to determine requirements and define deadlines",
-        "Plan and implement data Integration between 3rd party, in-house, and external vendor applications via RESTful Web APIs",
+        "Plan and implement data integration between 3rd party, in-house, and external vendor applications via RESTful Web APIs",
         "Architect relation database schema for all custom applications",
-        "Architect data warehouse, ETL process and analytic layer"
+        "Architect data warehouse, ETL process, and analytic layer"
       ]
     },
     {
@@ -83,7 +84,7 @@
       "details": [
         "Provide support for over 50 SQL servers(2000-2008 R2) in both OLTP and OLAP environments (including disaster recovery/upgrades)",
         "Develop an automated server inventory procedure to provide a detailed history of system status and configuration",
-        "Optimize all SQL Server code prior to release by utilizing execution plans and I/O statistics",
+        "Optimize all SQL Server code before release by utilizing execution plans and I/O statistics",
         "Develop and maintain a custom data archiving/restoration process for the primary operational database",
         "Design and develop user interface for accessing archived data"
       ]
