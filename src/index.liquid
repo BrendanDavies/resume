@@ -27,6 +27,34 @@ summary: Experienced Software Engineer who has worked across many platforms and 
   </section>
 
   <section class="block my-2 md:my-6 md:flex">
+    <header class="w-full p-2 border-solid md:border-r-2 border-primary md:p-6 md:w-1/6">
+      <h1 class="italic font-extrabold text-center strike md:block md:text-right">Skills</h1>
+    </header>
+    <ul class="w-full p-4 md:w-5/6">
+      <li class="flex flex-wrap m-1">
+        <span class="w-full font-bold md:w-1/6">Languages:</span>
+        <ul class="flex flex-wrap flex-1 p-1">
+          {% for item in skills.languages %}
+          <li class="px-1">
+            {{ item }}{% if forloop.last != true %},{% endif %}
+          </li>
+          {% endfor %}
+        </ul>
+      </li>
+      <li class="flex flex-wrap m-1">
+        <span class="w-full font-bold md:w-1/6">Technologies:</span>
+        <ul class="flex flex-wrap flex-1 p-1">
+          {% for item in skills.frameworks %}
+          <li class="px-1">
+            {{ item }}{% if forloop.last != true %},{% endif %}
+          </li>
+          {% endfor %}
+        </ul>
+      </li>
+    </ul>
+  </section>
+
+  <section class="block my-2 md:my-6 md:flex">
     <header class="w-full border-solid md:border-r-2 border-primary p2 md:p-6 md:w-1/6">
       <h1 class="italic font-extrabold text-center strike md:block md:text-right">Experience</h1>
     </header>
@@ -62,18 +90,5 @@ summary: Experienced Software Engineer who has worked across many platforms and 
       <dd>{{ item.description }}</dd>
       {% endfor %}
     </dl>
-  </section>
-
-  <section class="block my-2 md:my-6 md:flex">
-    <header class="w-full p-2 border-solid md:border-r-2 border-primary md:p-6 md:w-1/6">
-      <h1 class="italic font-extrabold text-center strike md:block md:text-right">Skills</h1>
-    </header>
-    <ul class="flex flex-wrap flex-1 p-4">
-      {% for item in skills.items %}
-      <li class="px-1">
-        {{ item.name }}{% if forloop.last != true %},{% endif %}
-      </li>
-      {% endfor %}
-    </ul>
   </section>
 </main>

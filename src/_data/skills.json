@@ -1,18 +1,16 @@
 {
-    "items": [
-        { "name": "Javascript", "level": 5 },
-        { "name": "TypeScript", "level": 5 },
-        { "name": "HTML", "level": 5 },
-        { "name": "CSS", "level": 5 },
-        { "name": "React", "level": 5 },
-        { "name": "Redux", "level": 5 },
-        { "name": "Vue.js", "level": 4 },
-        { "name": "Svelte", "level": 4 },
-        { "name": "Next.js", "level": 4 },
-        { "name": "Rust", "level": 3 },
-        { "name": "Swift", "level": 3 },
-        { "name": "Kotlin", "level": 3 },
-        { "name": "C#", "level": 3 },
-        { "name": "Java", "level": 3 }
+    "languages": [
+        "Javascript",
+        "TypeScript",
+        "HTML/CSS",
+        "Rust",
+        "Kotlin"
+    ],
+    "frameworks": [
+        "React",
+        "Next.js",
+        "Vue.js",
+        "Svelte",
+        "Redux"
     ]
 }

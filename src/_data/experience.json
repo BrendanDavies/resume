@@ -62,12 +62,11 @@
         }
       ],
       "details": [
-        "Design and develop responsive web applications utilizing C#, Entity Framework, ASP.Net, MVC, HTML5, CSS3, and Javascript (JQuery/AngularJS/Modernizr/Babel)",
-        "Modernize 50+ existing internal web applications to meet current web standards",
+        "Manage team of 5 developers responsible for delivering 50+ internal web applications",
         "Interface with project stakeholders to determine requirements and define deadlines",
         "Plan and implement data integration between 3rd party, in-house, and external vendor applications via RESTful Web APIs",
         "Architect relation database schema for all custom applications",
-        "Architect data warehouse, ETL process, and analytic layer"
+        "Architect data warehouse, ETL process, and analytic layer to enable self service reporting"
       ]
     },
     {
